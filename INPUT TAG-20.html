@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INPUT TAGS</title>
+</head>
+<body>
+    <b>STEP - 1</b><BR><br>
+
+    <FORM>       
+    USERNAME: <INPUT TYPE="text""><BR><BR>
+    PASSWORD: <INPUT TYPE="password"><BR><hr>
+
+    
+    </FORM><BR>
+        <B>STEP- 2 - PLACEHOLDER</B><br><br>
+
+        <FORM>            
+            USERNAME: <INPUT TYPE="text" placeholder=mobile/email><BR><BR>
+                PASSWORD: <INPUT TYPE="password"><BR>
+        </FORM><br><hr>
+
+
+
+        <B>STEP- 3 - ACTION ATTRIBUTE</B><br><br>
+
+        <FORM action="contact-me.php">
+            USERNAME: <INPUT TYPE="text" placeholder=mobile/email><BR><BR>
+                PASSWORD: <INPUT TYPE="password" required><BR>
+                    <input type="submit">
+        </FORM><br><br><hr>
+
+
+
+        <B>STEP- 4- NAME AND VALUE PROPERTY</B><br><br>
+        <FORM action="contact-me.php">
+            <label for="email">USERNAME: </label>
+            <INPUT TYPE="text" id="email" placeholder=mobile/email><BR><BR>
+                <label for="email">PASSWORD:</label>
+                 <INPUT id="User_password" TYPE="password" required><BR>
+                    <input type="submit">
+        </FORM><br><br><hr>
+
+
+
+        <B>STEP- 5 INPUT TYPE - DATE , FILE , COLOR , RANGE , BUTTON , SUBMIT</B><br><br>
+
+        <FORM action="contact-me.php">
+            <label for="email">USERNAME: </label>
+            <INPUT TYPE="text" id="email" placeholder=mobile/email><BR><BR>
+                <label for="email">PASSWORD:</label>
+                 <INPUT id="User_password" TYPE="password" required><BR>
+
+                    <label for="date">Date:</label>
+                    <input id="date" TYPE="date"><BR>
+
+                    <LABEL FOR="file">File:</LABEL>
+                    <input id="file" TYPE="file"><BR>
+
+                    <LABEL for="color">Color:</LABEL>
+                    <INPUT id="color" type="color"><BR>
+
+                    <LABEL FOR="range">Price Range</LABEL>
+                    <INPUT id="range" type="range"><BR>
+
+                    <LABEL FOR="button">Poke me</LABEL>
+                    <input id="button" type="button" value="poked"><br>
+
+                    <LABEL FOR="submit">Submit</LABEL>
+                    <input id="Submit" type="submit"><BR>
+
+        </FORM><br><br><hr>
+
+
+
+        <B>STEP- 6-INPUT TYPE RADIO</B><br><br>
+        <form>
+            <label for="male">male:</label>
+              <input type="radio" id="male" name="gender" value="male"><br>
+              <label for="female">female:</label>
+              <input type="radio" id="female" name="gender" value="female"><br>
+              <label for="other">other:</label>
+              <input type="radio" id="other" name="gender" value="other"><br>
+        </form><HR><BR><BR>
+
+
+
+         <B>STEP- 7-INPUT TYPE CHECKBOX</B><br><br>
+ 
+         <FORM>
+            <label for="html">HTML</label>
+            <input type="checkbox" name="Language" id="html" value="HTML"><BR>
+            <label for="java">JAVA</label>
+            <input type="checkbox" name="Language" id="java" value="JAVA"><BR>
+            <LABel for="python">PYTHON</LABel>
+            <input type="checkbox" name="Language" id="python" value="PYTHON"><BR>
+         </FORM><hr><br><br>
+
+
+
+         <B>STEP- 8-INPUT TYPE SELECT</B><br><br>
+
+         <form>
+            <label for="country">SELECT YOUR COUNTRY</label>
+             <SELEct name="country" id="country">  
+                <option value="uk">UK</option>
+                <option value="india">India</option>
+                <option value="us">US</option>
+                <option value="others">OTHERS</option>
+             </SELEct>
+         </form><BR> <br><hr>
+
+
+
+            <B>STEP- 8-INPUT TYPE TEXT AREA</B><br><br>
+
+            <textarea name="story" id="story" cols="30" rows="5">PLEASE WRITE A STORY</textarea>
+ 
+
+</body>
+</html>
